@@ -1,0 +1,74 @@
+.chat-window {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  bottom: 20px;
+}
+
+.chat-container {
+  height: 80%;
+  width: 80%;
+  border: solid 1px black;
+  margin: auto;
+  background: #daffff;
+}
+
+.chatroom-panel {
+  display: inline-block;
+  background-color: #F8F8F8;
+  width: 20%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+
+.chat-message-view {
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+  background: rgba(0, 184, 212, .4);
+  overflow: hidden;
+}
+
+.chat-window h1 {
+  text-align: center;
+  font-size: 2.4em;
+}
+
+.chat-message-view input[type="submit"] {
+  margin-left: 10px;
+  width: 13%;
+  min-height: 35px;
+}
+
+.login-splash {
+  position: absolute;
+  width: 40%;
+  top: 35%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.login-splash h2 {
+    font-size: 2.2em;
+}
+
+.login-splash input[type="text"] {
+  width: 100%;
+}
+
+.login-splash input[type="submit"] {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 150px;
+  font-size: 1.4em;
+}
+
+.error {
+  color: red;
+  font-size: 1.6em;
+  visibility: visible;
+}

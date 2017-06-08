@@ -1,0 +1,12 @@
+.message-form {
+  height:10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.message-form input[type="text"] {
+  width: 80%;
+  min-height: 35px;
+  border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+.chatroom-view {
+  list-style: none;
+  height: 80%;
+  padding-left: 0;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.870588);
+}
+
+.chatroom-view li {
+  text-align: center;
+  font-size: 1.8em;
+  height: 10%;
+}
+
+.chatroom-view h3 {
+  margin: 0;
+  padding: 7%;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.active {
+  background-color: #DCDCDC;
+  -webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  -o-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.active h3 {
+  font-weight: bolder;
+}
+
+.inactive:hover {
+  background-color: #F0F0F0;
+}
