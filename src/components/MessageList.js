@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Scroll from 'react-scroll';
+import ReactDOM from 'react-dom';
 import './css/message-list.css';
-
-const scroll = Scroll.animateScroll;
 
 class MessageList extends Component {
 
   componentDidUpdate() {
-    scroll.scrollToBottom;
+    const objDiv = ReactDOM.findDOMNode(this);
+    objDiv.scrollTop += 100;
   }
 
   render() {
